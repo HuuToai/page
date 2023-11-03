@@ -30,7 +30,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border: 1px solid #fff;
   border-radius: 30px;
-  background-image: url("../image/background-login.png");
+  background-image: url("/asset/image/background-login.png");
 }
 
 .container h1 {
