@@ -149,6 +149,8 @@ i {
   padding: 5px 15px;
   border-radius: 20px;
   box-shadow: 0 0 10px #fff;
+  position: relative;
+  left: 17%;
 }
 .box a {
   color: #265a54;
