@@ -20,33 +20,60 @@ input{
 .image-slider{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.image-item{
+    height: 550px;
+    width: 328px;
+    background-color: #265A54;
+    margin: 0 10px;
 }
 
 .star{
-    background: url(./asset/icon/akar-icons_star.svg) center / contain ;
+    background: url(/page/asset/icon/akar-icons_star.svg) center / contain ;
     height: 20px;
     width: 70px;
 }
 
-.image{
-    height: 300px;
-    margin-bottom: 20px;
-}
 
 .image img{
-    width: 300px;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
+    margin-bottom: 20px;
+
 }
+.image{
+    height: 250px;
+    /* margin-bottom: 20px; */
+}
+
 
 .image-title{
     font-size: 20px;
-    color: blueviolet;
+    color: #FFF;
 }
 
 .slick-initialized .slick-slider{
     margin: 0 10px;
+}
+
+.date,.Lorem, .image-title{
+    color: #FFF;
+    padding: 10px 25px;
+font-family: Poppins;
+}
+
+.date{
+font-size: 14px;
+font-weight: 250;
+}
+
+.Lorem{
+    font-size: 16px;
+    font-weight: 400;
 }

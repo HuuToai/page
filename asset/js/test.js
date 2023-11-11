@@ -3,9 +3,11 @@ $(document).ready(function(){
 
       slidesToShow:3,
       slidesToScroll:1,
-      autoplay:true,
-      autoplaySpeed:1500,
-      arrows:false,
+      infinite: true,
+
+      // autoplay:true,
+      // autoplaySpeed:1500,
+      // arrows:false,
     });
 
   });
