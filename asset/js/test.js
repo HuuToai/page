@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $('.image-slider').slick();
+    $('.image-slider').slick({slidesToShow:3,});
   });
       
