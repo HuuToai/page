@@ -21,6 +21,7 @@ input{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
+    align-items: center;
 }
 
 .star{
@@ -35,7 +36,7 @@ input{
 }
 
 .image img{
-    width: 100%;
+    width: 300px;
     height: 100%;
     object-fit: cover;
     border-radius: 12px;
@@ -46,3 +47,6 @@ input{
     color: blueviolet;
 }
 
+.slick-initialized .slick-slider{
+    margin: 0 10px;
+}
