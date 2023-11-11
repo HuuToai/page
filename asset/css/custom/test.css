@@ -25,7 +25,7 @@ input{
 }
 
 .star{
-    background: url(/asset/icon/akar-icons_star.svg) center / contain ;
+    background: url(./asset/icon/akar-icons_star.svg) center / contain ;
     height: 20px;
     width: 70px;
 }
